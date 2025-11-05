@@ -51,4 +51,5 @@ addmargins(table_peng)
 
 **Problem 4**
 
-https://github.com/Mikey0296/Math-250-sandbox.git
+
+[Michael's  Github](https://github.com/Mikey0296/Math-250-sandbox.git)
