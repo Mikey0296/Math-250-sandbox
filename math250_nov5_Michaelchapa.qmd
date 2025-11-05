@@ -14,6 +14,8 @@ library(gt)
 library(modeldata)
 Carseats<-ISLR2::Carseats
 ```
+**Problem 1**
+
 
 ```{r}
 t.test(Carseats$Price)
@@ -33,15 +35,20 @@ $H_A: \mu \neq 110$
 As we can see in this Box plot and the T-test the price of car seats from the main manufacturer is ~115.79 the most of the car seats falling in between ~113.47 and ~118.12. So if you really want to get a car seat for 110 you'll have to look somewhere else 
 
 
+**Problem 2**
 ```{r}
 t.test(Carseats$CompPrice, conf.level = .90)
 Error<-(124.975-123.7109)
 ```
 Sadly this one is more then 110 too 
 
+**Problem 3**
 ```{r}
 table_peng<- table(penguins$species,penguins$island)
 
 addmargins(table_peng)
 ```
 
+**Problem 4**
+
+https://github.com/Mikey0296/Math-250-sandbox.git

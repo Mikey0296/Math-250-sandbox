@@ -2343,6 +2343,7 @@ window.Quarto = {
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Carseats<span class="ot">&lt;-</span>ISLR2<span class="sc">::</span>Carseats</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p><strong>Problem 1</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(Carseats<span class="sc">$</span>Price)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -2373,6 +2374,7 @@ mean of x
 </div>
 <p>The current hypothesis is that mean price for car seats from the main manufacture is 110 <span class="math inline">\(H_0: \mu = 110\)</span> The alternative would be that the mean price is anything else other then 110 <span class="math inline">\(H_A: \mu \neq 110\)</span></p>
 <p>As we can see in this Box plot and the T-test the price of car seats from the main manufacturer is ~115.79 the most of the car seats falling in between ~113.47 and ~118.12. So if you really want to get a car seat for 110 you’ll have to look somewhere else</p>
+<p><strong>Problem 2</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(Carseats<span class="sc">$</span>CompPrice, <span class="at">conf.level =</span> .<span class="dv">90</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -2391,6 +2393,7 @@ mean of x
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>Error<span class="ot">&lt;-</span>(<span class="fl">124.975-123.7109</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Sadly this one is more then 110 too</p>
+<p><strong>Problem 3</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>table_peng<span class="ot">&lt;-</span> <span class="fu">table</span>(penguins<span class="sc">$</span>species,penguins<span class="sc">$</span>island)</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -2404,6 +2407,8 @@ mean of x
   Sum          168   124        52 344</code></pre>
 </div>
 </div>
+<p><strong>Problem 4</strong></p>
+<p>https://github.com/Mikey0296/Math-250-sandbox.git</p>
 
 </main>
 <!-- /main column -->
